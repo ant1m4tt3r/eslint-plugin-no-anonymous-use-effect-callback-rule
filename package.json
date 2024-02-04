@@ -1,0 +1,38 @@
+{
+  "name": "@antimatter-labs/eslint-plugin-no-anonymous-use-effect-callback-rule",
+  "version": "1.0.0",
+  "main": "cjs/index.js",
+  "files": [
+    "cjs",
+    "index.d.ts",
+    "package.json"
+  ],
+  "author": {
+    "name": "ant1m4tt3r",
+    "url": "https://github.com/ant1m4tt3r"
+  },
+  "dependencies": {
+    "@typescript-eslint/utils": "^6.20.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^6.1.0",
+    "@typescript-eslint/rule-tester": "^6.20.0",
+    "eslint": "^8.45.0",
+    "typescript": "^5.1.6",
+    "vitest": "^0.33.0"
+  },
+  "peerDependencies": {
+    "@eslint/eslintrc": ">=2"
+  },
+  "scripts": {
+    "build": "pnpm tsc -b",
+    "test": "vitest"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "use-effect"
+  ],
+  "license": "ISC"
+}
