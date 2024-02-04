@@ -15,6 +15,10 @@
     "name": "ant1m4tt3r",
     "url": "https://github.com/ant1m4tt3r"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ant1m4tt3r/eslint-plugin-no-anonymous-use-effect-callback-rule"
+  },
   "dependencies": {
     "@typescript-eslint/utils": "^6.20.0"
   },

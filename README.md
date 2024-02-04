@@ -24,7 +24,18 @@ useEffect(function initialComponentFetch() {
 
 ### Usage
 
-In your eslint config file add the following (rember to replace <severity> with the desired value: `"error"`, `"warn"`...)
+Install it using your package manager:
+```
+npm i -D @antimatter-labs/eslint-plugin-no-anonymous-use-effect-callback-rule
+```
+```
+yarn add -D @antimatter-labs/eslint-plugin-no-anonymous-use-effect-callback-rule
+```
+```
+pnpm add -D @antimatter-labs/eslint-plugin-no-anonymous-use-effect-callback-rule
+```
+
+In your eslint config file add the following (remeber to replace <severity> with the desired value: `"error"`, `"warn"`...)
 
 ```json
 {
